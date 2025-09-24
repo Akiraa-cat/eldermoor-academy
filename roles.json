@@ -1,0 +1,282 @@
+{
+  "Seer": {
+    "team": "Baik",
+    "emoji": "🔮",
+    "image": "data/images/role/seer.jpg",
+    "nightAction": "Menerawang 1 pemain setiap malam.",
+    "description": "Pewaris darah Oracle kuno yang memiliki mata batin untuk menembus tabir realitas. Keluarga Seer telah menjadi pelindung spiritual desa selama tujuh generasi dengan bola kristal warisan nenek moyang."
+  },
+  "Aura Seer": {
+    "team": "Baik",
+    "emoji": "👁️",
+    "image": "data/images/role/aura_seer.jpg",
+    "nightAction": "Dapat menerawang aura 1 pemain setiap malamnya (good, evil, unknown)",
+    "description": "Peramal muda yang kehilangan kemampuan melihat detail tapi masih bisa merasakan aura spiritual seseorang. Mata batinnya rusak akibat terlalu sering menatap kegelapan, namun intuisi tentang kebaikan dan kejahatan masih tajam."
+  },
+  "Detective": {
+    "team": "Baik",
+    "emoji": "🕵️",
+    "image": "data/images/role/detective.jpg",
+    "nightAction": "Menyelidiki 2 pemain tiap malam dan mendapat hasil perbandingan (= atau !=).",
+    "description": "Mantan agen kerajaan yang kehilangan keluarga dalam perang melawan kultus serigala dua dekade lalu. Pengalaman traumatisnya memberikan kemampuan supernatural untuk membandingkan aura gelap dua orang sekaligus."
+  },
+  "Guardian Angel": {
+    "team": "Baik",
+    "emoji": "👼",
+    "image": "data/images/role/guardian_angel.jpg",
+    "nightAction": "Melindungi 1 pemain tiap malam. Jika salah melindungi serigala, kau akan mati atas pilihan sendiri!",
+    "description": "Utusan cahaya suci yang diturunkan dari alam gaib untuk menjaga keseimbangan dunia. Kitab suci kuno memperingatkan bahwa melindungi makhluk jahat akan mengkontaminasi energi sucinya."
+  },
+  "Hunter": {
+    "team": "Baik",
+    "emoji": "🏹",
+    "image": "data/images/role/hunter.jpg",
+    "nightAction": "Bersiaga untuk balas dendam jika diserang atau digantung.",
+    "description": "Keturunan pemburu monster legendaris yang anak panah terakhirnya diberkati roh sang ayah. Pantang mati dengan sia-sia, ia akan menggunakan napas terakhir untuk menuntaskan misi suci keluarganya."
+  },
+  "Gunner": {
+    "team": "Baik",
+    "emoji": "🔫",
+    "image": "data/images/role/gunner.jpg",
+    "nightAction": "Menembak 1 target dengan peluru perak (2 peluru tersedia). Pelurumu menggema, semua warga akan tahu jika kau menembak!",
+    "description": "Veteran perang yang senapannya diberkati imam dengan air suci dan peluru perak untuk melawan makhluk supernatural. Dentuman senjatanya menggema karena dibuat khusus oleh pandai besi legendaris untuk berburu monster."
+  },
+  "Harlot": {
+    "team": "Baik",
+    "emoji": "💋",
+    "image": "data/images/role/harlot.jpg",
+    "nightAction": "Mengunjungi rumah 1 pemain tiap malam. Jika kau mengunjungi rumah yang salah, kau akan bertemu dengan ajalmu! Serigala tidak akan bisa memangsamu, karena kau sedang tidak ada dirumah.",
+    "description": "Mantan penari istana yang diasingkan karena keterlibatannya dengan ritual kuno penyembahan dewi malam. Takdir tragisnya adalah selalu berada di tempat yang salah pada waktu yang salah, seolah dikutuk untuk menyaksikan kematian."
+  },
+  "Cupid": {
+    "team": "Netral",
+    "emoji": "💘",
+    "image": "data/images/role/cupid.jpg",
+    "nightAction": "Menyatukan 2 orang di malam pertama. Bertahanlah bersama lovers yang kau ciptakan dan kau akan menang bersama mereka!",
+    "description": "Anak dewa yang turun ke dunia fana untuk mempelajari cinta manusia namun terjebap dalam wujud mortal. Panah emasnya yang dibuat dari bintang jatuh mengikat dua jiwa selamanya dalam ikatan yang lebih kuat dari kematian."
+  },
+  "Mason": {
+    "team": "Baik",
+    "emoji": "🧱",
+    "image": "data/images/role/mason.jpg",
+    "nightAction": "Berkoordinasi dengan sesama Mason untuk melindungi desa.",
+    "description": "Anggota persaudaraan rahasia yang membangun benteng spiritual melindungi desa dari invasi makhluk gelap. Mereka terikat sumpah suci yang diucapkan di atas altar batu kuno untuk saling melindungi sampai mati."
+  },
+  "Angel": {
+    "team": "Baik",
+    "emoji": "😇",
+    "image": "data/images/role/angel.jpg",
+    "nightAction": "Membangkitkan 1 pemain yang mati (hanya sekali seumur hidup). Nyawa dibayar dengan nyawa - kau hancur berkeping-keping!",
+    "description": "Malaikat yang kehilangan sayapnya karena melanggar hukum surga demi menyelamatkan seorang manusia. Kekuatan terakhirnya adalah memberikan napas kehidupan kepada satu jiwa yang telah meninggal dunia."
+  },
+  "Witch": {
+    "team": "Baik",
+    "emoji": "🧙‍♀️",
+    "image": "data/images/role/witch.jpg",
+    "nightAction": "Dapat memilih untuk menyelamatkan warga atau meracuni. Kau berada di pihak warga, jadi bijaklah!",
+    "description": "Pewaris terakhir dari garis keturunan penyihir putih yang menjaga keseimbangan alam. Ramuan penyembuh dan racunnya dibuat dari tumbuhan langka yang hanya tumbuh di kuburan para saint."
+  },
+  "The Chemist": {
+    "team": "Baik",
+    "emoji": "🧑‍🔬",
+    "image": "data/images/role/the_chemist.jpg",
+    "nightAction": "Memaksa 1 pemain untuk meminum 1 dari 2 ramuan buatanmu, dan kau akan meminum ramuan lainnya. Satu diantara kalian akan mati!",
+    "description": "Ilmuwan gila yang kehilangan kewarasan setelah keluarganya menjadi subjek eksperimen serigala. Obsesinya pada ramuan kimia membuatnya menciptakan permainan mematikan untuk mencari kebenaran."
+  },
+  "Loudmouth": {
+    "team": "Baik",
+    "emoji": "🤬",
+    "image": "data/images/role/loudmouth.jpg",
+    "nightAction": "Di malam pertama, memilih 1 pemain. Ketika kau mati, role pemain tersebut akan diumumkan ke semua warga.",
+    "description": "Mantan penyiar radio desa yang kehilangan suaranya akibat kutukan. Sebelum mati, ia akan menggunakan sisa kekuatan supernaturalnya untuk mengungkap satu kebenaran terakhir kepada dunia."
+  },
+  "Judge": {
+    "team": "Baik",
+    "emoji": "🧑‍⚖️",
+    "image": "data/images/role/judge.jpg",
+    "nightAction": "Dapat main hakim sendiri dengan memilih 1 pemain untuk dieksekusi, jika voting siang tidak ada yang tergantung. Jika target adalah Villager, kau yang mati. (Maksimal 2x per game)",
+    "description": "Hakim agung yang kehilangan keluarga dalam kekacauan hukum rimba. Ia bersumpah akan menegakkan keadilan dengan tangannya sendiri, bahkan jika harus mengorbankan nyawa innocent."
+  },
+  "Prayer": {
+    "team": "Baik",
+    "emoji": "🤲",
+    "image": "data/images/role/prayer.jpg",
+    "nightAction": "Berdoa untuk 1 pemain tiap malam. Jika mereka mati, kau mendapat kemampuan baru berdasarkan aura mereka: Good = 🛡️Protect, Evil = 🔪Kill, Unknown = 🎭Reveal .",
+    "description": "Pendeta yang kehilangan iman setelah gerejanya dibakar serigala. Doa-doanya kini bercampur dengan kutukan, memberikan kekuatan yang bergantung pada jiwa yang ia doakan."
+  },
+  "Werewolf": {
+    "team": "Jahat",
+    "emoji": "🐺",
+    "image": "data/images/role/werewolf.jpg",
+    "nightAction": "Tidak pernah puas untuk memangsa 1 korban setiap malamnya.",
+    "description": "Manusia terkutuk yang kehilangan jiwa kemanusiaannya akibat gigitan alpha di masa lampau. Legenda mengatakan mereka dulunya adalah penduduk desa yang berubah saat bulan purnama pertama setelah terkena kutukan."
+  },
+  "Alpha Werewolf": {
+    "team": "Jahat",
+    "emoji": "👹",
+    "image": "data/images/role/alpha_werewolf.jpg",
+    "nightAction": "Menerkam korban dan memiliki peluang 20% untuk mengubah mangsanya menjadi kawanan.",
+    "description": "Raja serigala yang terlahir dari ritual kelam suku primitif ribuan tahun lalu. Darah Alpha mengandung virus supernatural yang dapat mengubah manusia biasa menjadi budak kegelapan."
+  },
+  "Lycan": {
+    "team": "Jahat",
+    "emoji": "🌙",
+    "image": "data/images/role/lycan.jpg",
+    "nightAction": "Menyamar sempurna sebagai manusia di siang hari (pasif: terdeteksi sebagai Warga Biasa (salah satu peran yang bermain) oleh Seer, dan dianggap baik oleh Aura Seer dan Detektif).",
+    "description": "Keturunan hybrid hasil perkawinan terlarang antara manusia dengan serigala kuno yang telah berevolusi selama berabad-abad. Darah campurannya memungkinkan transformasi yang sempurna, menyembunyikan aura kegelapan dari mata manusia biasa namun tidak dari mata batin Oracle."
+  },
+  "Wolfman": {
+    "team": "Baik",
+    "emoji": "🦴",
+    "image": "data/images/role/wolfman.jpg",
+    "nightAction": "Berburu sendirian dengan naluri primitif (pasif: terdeteksi sebagai Werewolf oleh Seer, dan dianggap jahat oleh Aura Seer dan Detective).",
+    "description": "Manusia yang tersesat di hutan belantara sejak kecil dan dibesarkan kawanan serigala selama puluhan tahun. Meskipun jiwanya tetap manusia dan berjuang untuk kebaikan, aura liar dan naluri predator yang tertanam dalam dirinya membuatnya tampak menakutkan bagi mata yang terlatih mendeteksi kejahatan."
+  },
+  "Cursed": {
+    "team": "Baik",
+    "emoji": "😾",
+    "image": "data/images/role/cursed.jpg",
+    "nightAction": "Berdoa agar tidak digigit serigala dan berubah menjadi monster.",
+    "description": "Keturunan dari warga yang selamat dari serangan serigala pertama namun terkena percikan darah monster. Kutukan dalam darahnya tertidur hingga gigitan serigala membangunkan setan yang telah lama bersemayam."
+  },
+  "Traitor": {
+    "team": "Jahat",
+    "emoji": "🐍",
+    "image": "data/images/role/traitor.jpg",
+    "nightAction": "Menyamar sebagai warga sambil menunggu saat yang tepat untuk mengkhianati. Ia akan berubah menjadi serigala ketika semua serigala tewas!",
+    "description": "Mantan penduduk desa yang membuat perjanjian gelap dengan alpha serigala untuk menyelamatkan nyawanya. Jiwa yang sudah terjual kepada kegelapan menunggu saat yang tepat untuk mengkhianati teman-temannya sendiri."
+  },
+  "Wild Child": {
+    "team": "Baik",
+    "emoji": "👶",
+    "image": "data/images/role/wild_child.jpg",
+    "nightAction": "Menetapkan mentor di malam pertama. Ketika mentornya mati, naluri buas menguasai dirinya hingga menjadi seorang werewolf",
+    "description": "Anak yatim yang dibesarkan oleh serigala di hutan belantara namun diselamatkan penduduk desa. Ikatan supernatural dengan figur pengganti orangtuanya begitu kuat hingga kehilangan mentor membangunkan naluri binatang buas dalam dirinya."
+  },
+  "Lil Wolvy": {
+    "team": "Jahat",
+    "emoji": "🐺",
+    "image": "data/images/role/lil_wolvy.jpg",
+    "nightAction": "Memangsa korban seperti serigala dewasa. Jika digantung, serigala lain akan murka dan bisa membunuh 2 orang di malam berikutnya!",
+    "description": "Anak serigala yang terlalu imut dan polos sehingga kawanan dewasa sangat melindunginya. Kematian si kecil akan memicu amarah besar kawanan serigala yang kehilangan 'anak emas' mereka."
+  },
+  "Wolf Summoner": {
+    "team": "Jahat",
+    "emoji": "🌕",
+    "image": "data/images/role/wolf_summoner.jpg",
+    "nightAction": "Berkoordinasi dengan serigala lain untuk berburu. Sekali per game, dapat membangkitkan 1 pemain mati menjadi Werewolf biasa.",
+    "description": "Nekromancer serigala yang memiliki koneksi dengan arwah-arwah serigala kuno. Ritual pemanggilan yang ia kuasai dapat mengikat jiwa mati ke dalam tubuh serigala yang baru."
+  },
+  "Wolf Trickster": {
+    "team": "Jahat",
+    "emoji": "🎭",
+    "image": "data/images/role/wolf_trickster.jpg",
+    "nightAction": "Berkoordinasi dengan serigala lain. Di siang hari, dapat memilih target - jika target mati bukan karena serigala, akan mencuri penampilannya (hanya sekali per game).",
+    "description": "Serigala shapeshifter yang memiliki kemampuan mencuri identitas korban. Sihir kuno yang mengalir dalam darahnya memungkinkan transformasi sempurna setelah menyerap esensi jiwa yang meninggal."
+  },
+  "Wolf Seer": {
+    "team": "Jahat",
+    "emoji": "👁️",
+    "image": "data/images/role/wolf_seer.jpg",
+    "nightAction": "Melihat role 1 pemain tiap malam dan berkoordinasi dengan serigala lain. Tidak bisa ikut voting kill kecuali menyerahkan kemampuan melihatnya kepada Dewa atau menjadi serigala terakhir.",
+    "description": "Serigala dengan mata ketiga yang dapat menembus semua penyamaran dan kebohongan. Kekuatan penglihatan supernaturalnya sangat berharga sehingga kawanan melindunginya dari pertarungan langsung."
+  },
+  "Arsonist": {
+    "team": "Netral",
+    "emoji": "🔥",
+    "image": "data/images/role/arsonist.jpg",
+    "nightAction": "Dapat menuang bensin atau membakar semua korban yang ditandai.",
+    "description": "Mantan pendeta yang kehilangan akal setelah menyaksikan keluarganya dibantai serigala dalam kobaran api gereja. Api suci yang dulunya melindungi kini menjadi senjata balas dendamnya yang membuta."
+  },
+  "Serial Killer": {
+    "team": "Netral",
+    "emoji": "🔪",
+    "image": "data/images/role/serial_killer.jpg",
+    "nightAction": "Membunuh 1 pemain tiap malam. Tidak bisa dibunuh serigala (jika diserang, kamu akan menyerang balik dan membunuh serigala terlemah).",
+    "description": "Mantan algojo kerajaan yang kehilangan kewarasan setelah mengeksekusi ratusan terdakwa penyihir yang tidak bersalah. Arwah para korban yang tidak berdosa membisikkan nama-nama target baru setiap malam dalam mimpinya."
+  },
+  "Doppelganger": {
+    "team": "Netral",
+    "emoji": "🎭",
+    "image": "data/images/role/doppelganger.jpg",
+    "nightAction": "Di malam pertama, memilih seseorang untuk ditiru. Ketika target mati, mewarisi role mereka.",
+    "description": "Makhluk shapeshifter kuno yang terjebap dalam wujud manusia karena mantra binding seorang penyihir. Satu-satunya cara untuk membebaskan diri adalah dengan menyerap esensi jiwa orang lain yang telah meninggal."
+  },
+  "Fool": {
+    "team": "Baik",
+    "emoji": "🤡",
+    "image": "data/images/role/fool.jpg",
+    "nightAction": "Mencoba menerawang namun hasil ramalannya meleset, dan ia masih percaya bahwa dirinya seorang oracle",
+    "description": "Mantan murid Seer yang kehilangan kemampuan supernatural akibat kecelakaan ritual yang salah. Otaknya yang rusak masih percaya dapat melihat masa depan, padahal yang dilihatnya hanya bayang-bayang masa lalu."
+  },
+  "Tanner": {
+    "team": "Netral",
+    "emoji": "👺",
+    "image": "data/images/role/tanner.jpg",
+    "nightAction": "Merencanakan cara agar digantung warga keesokan harinya. (Tanner menang jika berhasil digantung)",
+    "description": "Penyamak kulit yang tergila-gila setelah secara tidak sengaja mengolah kulit korban serigala dan terkena kutukan kegilaan. Obsesinya pada kematian muncul dari bisikan arwah-arwah yang terjebap dalam produk kerjanya."
+  },
+  "Evil Detective": {
+    "team": "Netral",
+    "emoji": "🕵️‍♂️👹",
+    "image": "data/images/role/evil_detective.jpg",
+    "nightAction": "Memilih 2 pemain tiap malam, dapat memilih dirinya sendiri. Jika beda team, keduanya mati. Jika sama team, tidak ada yang mati dan kau tahu team mereka. Tidak bisa dibunuh serigala.",
+    "description": "Detektif korup yang menjual informasi kepada penjahat tertinggi. Kemampuan investigasinya berubah menjadi senjata pemerasan yang mematikan setelah jiwanya dikuasai kegelapan."
+  },
+  "Cannibal": {
+    "team": "Netral",
+    "emoji": "🍖",
+    "image": "data/images/role/cannibal.jpg",
+    "nightAction": "Setiap malam mendapat 1 stack kelaparan. Dapat mengonsumsi stack untuk memakan pemain (maksimal 5 stack tersimpan). Tidak bisa dibunuh serigala.",
+    "description": "Mantan tukang masak yang tergila-gila daging manusia setelah secara tidak sengaja memakan korban serigala. Nafsu kanibalnya tumbuh seiring waktu, menumpuk lapar yang harus dipuaskan."
+  },
+  "Bandit": {
+    "team": "Netral",
+    "emoji": "🥷",
+    "image": "data/images/role/bandit.jpg",
+    "nightAction": "Di malam pertama, mengubah 1 Villager/Solo voter menjadi Accomplice. Bisa membunuh bersama Accomplice tiap malam. Tidak bisa dibunuh serigala.",
+    "description": "Pemimpin gerombolan perampok yang kehilangan semua anak buahnya dalam serangan serigala. Ia kini merekrut warga desa dengan paksa untuk membangun kembali kerajaan kriminalnya."
+  },
+  "Accomplice": {
+    "team": "Netral",
+    "emoji": "💢",
+    "image": "data/images/role/accomplice.jpg",
+    "nightAction": "Merupakan Kacung Bandit guna membunuh target tiap malam. Pilihan Accomplice diprioritaskan. Dapat dibunuh serigala tidak seperti Bandit.",
+    "description": "Warga desa yang dipaksa bergabung dengan Bandit demi keselamatan keluarga. Meskipun tidak suka dengan kehidupan kriminal, ia terpaksa menuruti perintah demi bertahan hidup."
+  },
+  "Headhunter": {
+    "team": "Netral",
+    "emoji": "🎯",
+    "image": "data/images/role/headhunter.jpg",
+    "nightAction": "Target rahasia (acak) ditentukan di awal game. Buat targetmu digantung oleh warga dan kamu menang! Jika targetmu mati dengan cara lain, kamu akan bergabung dengan tim Jahat dan menang atau kalah bersama mereka.",
+    "description": "Pemburu bayaran profesional yang menerima kontrak misterius untuk mengeliminasi target spesifik. Sukses atau gagalnya misi akan menentukan kesetiaannya pada siapa."
+  },
+  "Hercules": {
+    "team": "Baik",
+    "emoji": "🦾",
+    "image": "data/images/role/hercules.jpg",
+    "nightAction": "Pasif: Butuh 2 serangan untuk mati. Melindungi Harlot yang mengunjunginya.",
+    "description": "Keturunan dewa yang memiliki kekuatan dan ketangguhan luar biasa. Otot dan tulangnya sekuat baja, membutuhkan dua serangan mematikan untuk mengalahkannya. Aura pelindungnya bahkan dapat melindungi wanita yang mengunjunginya dari bahaya."
+  },
+  "Blacksmith": {
+    "team": "Baik",
+    "emoji": "⚒️",
+    "image": "data/images/role/blacksmith.jpg",
+    "nightAction": "Sekali per game: Ciptakan Malam Damai - tidak ada aksi pembunuhan yang bisa dilakukan.",
+    "description": "Pandai besi master yang menguasai sihir kuno logam. Sekali dalam hidupnya, ia dapat menempa perisai spiritual raksasa yang melindungi seluruh desa dari segala bentuk kekerasan selama satu malam."
+  },
+  "Guardian Wolf": {
+    "team": "Jahat",
+    "emoji": "🛡️🐺",
+    "image": "data/images/role/guardian_wolf.jpg",
+    "nightAction": "Sekali per game: Lindungi kawanan dari Serial Killer atau dari voting lynch (otomatis lanjut ke malam).",
+    "description": "Serigala pelindung yang memiliki ikatan mistis dengan kawanannya. Kekuatan magisnya dapat menyelamatkan satu serigala dari kematian atau bahkan menghentikan eksekusi publik dengan kekuatan supernatural."
+  },
+  "Villager": {
+    "team": "Baik",
+    "emoji": "👤",
+    "image": "data/images/role/villager.jpg",
+    "nightAction": "Tidur nyenyak dan berharap tidak ada yang memburu di malam hari.",
+    "description": "Warga desa biasa yang terjebak dalam kutukan supernatural Eldermoor. Meskipun tidak memiliki kemampuan khusus, kepolosan dan kebaikhatian mereka adalah harapan terakhir desa."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "werewolf-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.2",
+    "chalk": "^5.6.2",
+    "pino": "^9.9.5",
+    "qrcode-terminal": "^0.12.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
