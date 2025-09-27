@@ -183,70 +183,124 @@
     </section>
 
     <!-- Rules -->
+<!-- Rules -->
     <section id="rules" class="py-20 bg-black/50 blood-drip">
         <div class="max-w-6xl mx-auto px-4">
             <h2 class="font-horror text-3xl md:text-5xl text-red-500 text-center mb-16 text-shadow-red scroll-animate">ATURAN PERMAINAN</h2>
 
-            <!-- reorganized rules: left column info, right column cards -->
+            <!-- Game Editions -->
+            <div class="grid md:grid-cols-2 gap-8 mb-16 scroll-animate">
+                <div class="rule-card">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-800 rounded-full p-3 mr-4"><i class="fas fa-leaf text-white text-xl"></i></div>
+                        <h3 class="font-elegant text-2xl text-green-400">Simple Edition</h3>
+                    </div>
+                    <p class="text-gray-300 font-elegant mb-4">Mode yang cocok untuk pemain baru dengan role-role dasar yang mudah dipahami.</p>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center text-gray-300">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>Role klasik: Seer, Hunter, Guardian Angel</span>
+                        </div>
+                        <div class="flex items-center text-gray-300">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>Mekanisme sederhana dan straightforward</span>
+                        </div>
+                        <div class="flex items-center text-gray-300">
+                            <i class="fas fa-check text-green-400 mr-2"></i>
+                            <span>Perfect untuk pembelajaran dasar</span>
+                        </div>
+                    </div>
+                    <div class="mt-4 p-3 bg-green-900/20 rounded-lg border border-green-500/30">
+                        <code class="text-green-400 font-mono">/start</code>
+                        <span class="text-gray-300 ml-2">— Buat lobby Simple Edition</span>
+                    </div>
+                </div>
+
+                <div class="rule-card">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-red-800 rounded-full p-3 mr-4"><i class="fas fa-fire text-white text-xl"></i></div>
+                        <h3 class="font-elegant text-2xl text-red-400">Chaos Edition</h3>
+                    </div>
+                    <p class="text-gray-300 font-elegant mb-4">Mode advanced dengan role kompleks dan mechanic unik yang menantang.</p>
+                    <div class="space-y-2 text-sm">
+                        <div class="flex items-center text-gray-300">
+                            <i class="fas fa-fire text-red-400 mr-2"></i>
+                            <span>Role eksotis: Cannibal, Arsonist, Wolf Trickster</span>
+                        </div>
+                        <div class="flex items-center text-gray-300">
+                            <i class="fas fa-fire text-red-400 mr-2"></i>
+                            <span>Mekanisme transformasi dan ability stealing</span>
+                        </div>
+                        <div class="flex items-center text-gray-300">
+                            <i class="fas fa-fire text-red-400 mr-2"></i>
+                            <span>Untuk pemain berpengalaman</span>
+                        </div>
+                    </div>
+                    <div class="mt-4 p-3 bg-red-900/20 rounded-lg border border-red-500/30">
+                        <code class="text-red-400 font-mono">/startchaos</code>
+                        <span class="text-gray-300 ml-2">— Buat lobby Chaos Edition</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Core Rules -->
             <div class="grid md:grid-cols-2 gap-10">
                 <div class="space-y-6 scroll-animate">
                     <div class="rule-card">
-                        <div class="flex items-center mb-4"><div class="bg-red-800 rounded-full p-3 mr-4"><i class="fas fa-moon text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-red-400">Siklus Permainan</h3></div>
+                        <div class="flex items-center mb-4"><div class="bg-purple-800 rounded-full p-3 mr-4"><i class="fas fa-moon text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-purple-400">Siklus Permainan</h3></div>
                         <div class="grid sm:grid-cols-2 gap-4">
                             <div>
                                 <div class="flex items-center"><div class="w-2 h-2 bg-red-400 rounded-full mr-3"></div><strong class="text-red-400">Malam:</strong></div>
-                                <p class="text-gray-300 font-elegant ml-5">Serigala berburu, role khusus beraksi (default 90 detik)</p>
+                                <p class="text-gray-300 font-elegant ml-5">Serigala berburu, role khusus beraksi via DM</p>
                             </div>
                             <div>
                                 <div class="flex items-center"><div class="w-2 h-2 bg-yellow-400 rounded-full mr-3"></div><strong class="text-yellow-400">Siang:</strong></div>
-                                <p class="text-gray-300 font-elegant ml-5">Diskusi dan voting untuk menggantung tersangka (default 120 detik)</p>
+                                <p class="text-gray-300 font-elegant ml-5">Diskusi dan voting untuk eliminasi tersangka</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="rule-card slide-left">
-                        <div class="flex items-center mb-4"><div class="bg-purple-800 rounded-full p-3 mr-4"><i class="fas fa-eye text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-purple-400">Mode Revelation</h3></div>
-                        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-3">
-                            <div class="text-center p-3 rounded-lg border border-yellow-500/20"><strong class="text-yellow-400">FULL</strong><p class="text-gray-300 text-sm mt-2">Role lengkap terungkap saat mati</p></div>
-                            <div class="text-center p-3 rounded-lg border border-blue-500/20"><strong class="text-blue-400">AURA_ONLY</strong><p class="text-gray-300 text-sm mt-2">Good/Evil/Unknown</p></div>
-                            <div class="text-center p-3 rounded-lg border border-purple-500/20"><strong class="text-purple-400">PROGRESSIVE</strong><p class="text-gray-300 text-sm mt-2">Informasi bertambah per hari</p></div>
-                            <div class="text-center p-3 rounded-lg border border-gray-500/20"><strong class="text-gray-400">HIDDEN</strong><p class="text-gray-300 text-sm mt-2">Tidak ada informasi</p></div>
-                        </div>
-                    </div>
-
-                    <div class="rule-card slide-right">
-                        <div class="flex items-center mb-4"><div class="bg-blue-800 rounded-full p-3 mr-4"><i class="fas fa-magic text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-blue-400">Fitur & Mekanisme Khusus</h3></div>
-                        <div class="grid md:grid-cols-2 gap-4 text-gray-300 font-elegant text-sm">
-                            <div>
-                                <h4 class="text-red-400 mb-2">Mekanisme Dasar</h4>
-                                <ul class="space-y-2">
-                                    <li>• Minimum 5 pemain untuk mulai permainan</li>
-                                    <li>• Whisper system untuk komunikasi rahasia</li>
-                                    <li>• Hunter revenge - balas dendam saat mati</li>
-                                    <li>• Lover chain death - mati bersama kekasih</li>
-                                    <li>• Role transformation abilities</li>
-                                    <li>• Guardian protection mechanics</li>
-                                </ul>
+                        <div class="flex items-center mb-4"><div class="bg-blue-800 rounded-full p-3 mr-4"><i class="fas fa-magic text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-blue-400">Mekanisme Khusus</h3></div>
+                        <div class="space-y-3 text-gray-300 font-elegant text-sm">
+                            <div class="flex items-center">
+                                <i class="fas fa-heart text-pink-400 mr-3"></i>
+                                <div>
+                                    <strong class="text-pink-400">Lover Chain:</strong>
+                                    <p class="text-gray-300">Pasangan mati bersama selamanya</p>
+                                </div>
                             </div>
-                            <div>
-                                <h4 class="text-purple-400 mb-2">Fitur Unik</h4>
-                                <ul class="space-y-2">
-                                    <li>• <strong>Peaceful Night:</strong> Blacksmith ciptakan malam tanpa pembunuhan</li>
-                                    <li>• <strong>Role Stealing:</strong> Wolf Trickster curi identitas</li>
-                                    <li>• <strong>Transformation:</strong> Wild Child, Cursed, Traitor berubah role</li>
-                                    <li>• <strong>Multiple Kills:</strong> Cannibal makan banyak korban sekaligus</li>
-                                    <li>• <strong>Team Dynamics:</strong> Mason, Bandit-Accomplice, Wolf Pack</li>
-                                </ul>
+                            <div class="flex items-center">
+                                <i class="fas fa-bow-arrow text-orange-400 mr-3"></i>
+                                <div>
+                                    <strong class="text-orange-400">Hunter Revenge:</strong>
+                                    <p class="text-gray-300">Balas dendam sebelum mati</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-exchange-alt text-cyan-400 mr-3"></i>
+                                <div>
+                                    <strong class="text-cyan-400">Role Transform:</strong>
+                                    <p class="text-gray-300">Perubahan identitas dinamis</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-comments text-purple-400 mr-3"></i>
+                                <div>
+                                    <strong class="text-purple-400">Whisper System:</strong>
+                                    <p class="text-gray-300">Komunikasi rahasia kawanan</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="space-y-6 scroll-animate">
+
                     <div class="rule-card">
-                        <div class="flex items-center mb-4"><div class="bg-yellow-800 rounded-full p-3 mr-4"><i class="fas fa-crown text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-yellow-400">Kondisi Menang</h3></div>
+                        <div class="flex items-center mb-4"><div class="bg-yellow-800 rounded-full p-3 mr-4"><i class="fas fa-trophy text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-yellow-400">Kondisi Menang</h3></div>
                         <div class="space-y-2 text-gray-300 font-elegant">
-                            <p><span class="text-green-400">🏘️ Desa:</span> Basmi semua serigala</p>
+                            <p><span class="text-green-400">🏘️ Desa:</span> Basmi semua serigala dan ancaman</p>
                             <p><span class="text-red-400">🐺 Serigala:</span> Kuasai atau samakan jumlah dengan warga</p>
                             <p><span class="text-yellow-400">💀 Netral:</span> Kondisi khusus per role</p>
                             <p><span class="text-pink-400">💕 Lovers:</span> Bertahan berdua sampai akhir</p>
@@ -255,16 +309,16 @@
                     </div>
 
                     <div class="rule-card">
-                        <div class="flex items-center mb-4"><div class="bg-green-800 rounded-full p-3 mr-4"><i class="fas fa-users text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-green-400">Tim & Aura</h3></div>
+                        <div class="flex items-center mb-4"><div class="bg-indigo-800 rounded-full p-3 mr-4"><i class="fas fa-users text-white text-xl"></i></div><h3 class="font-elegant text-2xl text-indigo-400">Tim & Aura</h3></div>
                         <div class="space-y-3">
-                            <div class="flex items-center space-x-3 p-3 bg-green-900/20 rounded-lg"><i class="fas fa-shield text-green-400"></i><div><strong class="text-green-400">Tim Baik</strong><p class="text-gray-300 text-sm">Warga desa yang ingin menyelamatkan kampung</p></div></div>
-                            <div class="flex items-center space-x-3 p-3 bg-red-900/20 rounded-lg"><i class="fas fa-skull text-red-400"></i><div><strong class="text-red-400">Tim Jahat</strong><p class="text-gray-300 text-sm">Serigala dan sekutunya yang ingin menguasai</p></div></div>
-                            <div class="flex items-center space-x-3 p-3 bg-yellow-900/20 rounded-lg"><i class="fas fa-balance-scale text-yellow-400"></i><div><strong class="text-yellow-400">Tim Netral</strong><p class="text-gray-300 text-sm">Role dengan tujuan khusus sendiri</p></div></div>
+                            <div class="flex items-center space-x-3 p-3 bg-green-900/20 rounded-lg"><i class="fas fa-shield text-green-400"></i><div><strong class="text-green-400">Tim Baik</strong><p class="text-gray-300 text-sm">Warga desa melawan kegelapan</p></div></div>
+                            <div class="flex items-center space-x-3 p-3 bg-red-900/20 rounded-lg"><i class="fas fa-skull text-red-400"></i><div><strong class="text-red-400">Tim Jahat</strong><p class="text-gray-300 text-sm">Serigala dan sekutu gelap</p></div></div>
+                            <div class="flex items-center space-x-3 p-3 bg-yellow-900/20 rounded-lg"><i class="fas fa-balance-scale text-yellow-400"></i><div><strong class="text-yellow-400">Tim Netral</strong><p class="text-gray-300 text-sm">Agenda tersembunyi sendiri</p></div></div>
                         </div>
                     </div>
+
                 </div>
             </div>
-
         </div>
     </section>
 
